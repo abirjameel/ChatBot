@@ -4,8 +4,7 @@ we will combine everything we have learned about Natural Language Processing to 
 a dialogue chat bot, which will be able to:   
 answer programming-related questions (using StackOverflow dataset);
 chit-chat and simulate dialogue on all non programming-related questions.
-For a chit-chat mode we will use a pre-trained neural network engine available from [ChatterBot](http://chatterbot.readthedocs.io/en/stable/tutorial.html).   
------------------------------------------------------------------------------------------------------
+For a chit-chat mode we will use a pre-trained neural network engine available from [ChatterBot (http://chatterbot.readthedocs.io/en/stable/tutorial.html).   
 ## How to use this Chatbot
 Clone this repository using  
 ```
