@@ -20,7 +20,15 @@ pip install -r requirements.txt
 ```  
 ## Setup Database resources 
 Download pretrained embeddings and text classification models from this [link](https://drive.google.com/file/d/1SFVwR8JbW6Gbei-eZLdv1A6UQMWcUTac/view?usp=sharing) 
-and extract them inside data folder of repository directory.    
+and extract them inside data folder of repository directory.   
+If you are using linux use the following way to download embeddings and models:
+```
+wget --save-cookies cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&confirm=e6AN&id=1SFVwR8JbW6Gbei-eZLdv1A6UQMWcUTac' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/Code: \1\n/p'
+After Running the above line of code will return a code copy that replace as below: 
+e.g. Code : YOUR_CODE
+wget --load-cookies cookies.txt 'https://drive.google.com/uc?export=download&confirm=YOUR_CODE&id=1SFVwR8JbW6Gbei-eZLdv1A6UQMWcUTac' -O data.zip
+```    
+And you are done downloading extract and copy to chatbotrepo/data.   
 These resources are required by chatbot to distinguish between the context of your questions.    
 if you are asking general questions it will give general answers or of you want some programming related questions
 it will answer you accordingly.    
