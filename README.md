@@ -13,7 +13,7 @@ cd cloned_repo_dir
 ```
 ## Create virtualenv using anaconda prompt:
 ```
-virtualenv chatbot_venv
+virtualenv -p python3 chatbot_venv
 source chatbot_venv/bin/activate //for Linux
 activate chatbot_venv //windows 
 pip install -r requirements.txt
