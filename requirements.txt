@@ -1,0 +1,5 @@
+numpy==1.14.3
+nltk==3.3
+chatterbot==0.8.5
+scikit-learn==0.19.1
+pandas==0.22.0
