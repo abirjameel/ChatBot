@@ -1,1 +1,1 @@
-your embeddings and resources goes here
+your downloaded embeddings and pretrained models goes here
