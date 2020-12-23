@@ -2,21 +2,24 @@
 This is a dialogue chat bot, which will be able to:   
 answer programming-related questions (using StackOverflow dataset);
 chit-chat and simulate dialogue on all non programming-related questions.
-For a chit-chat mode we will use a pre-trained neural network engine available from [ChatterBot (http://chatterbot.readthedocs.io/en/stable/tutorial.html).   
+For a chit-chat mode we will use a pre-trained neural network engine available from [ChatterBot (http://chatterbot.readthedocs.io/en/stable/tutorial.html).     
+Here you can have a glance of what this chatbot might look like!         
+![Screenshot](img.JPG)  
+
 ## How to use this Chatbot
 Clone this repository using  
 ```
 git clone repo_github_url
 cd cloned_repo_dir
 ```
-## Create virtualenv using anaconda prompt:
+### Create virtualenv using anaconda prompt:
 ```
 virtualenv -p python3 chatbot_venv
 source chatbot_venv/bin/activate //for Linux
 activate chatbot_venv //windows 
 pip install -r requirements.txt
 ```  
-## Setup Database resources 
+### Setup Database resources 
 Download pretrained embeddings and text classification models from this [link](https://drive.google.com/file/d/1SFVwR8JbW6Gbei-eZLdv1A6UQMWcUTac/view?usp=sharing) 
 and extract them inside data folder of repository directory.   
 If you are using linux use the following way to download embeddings and models:
@@ -30,7 +33,7 @@ And you are done downloading extract and copy to chatbotrepo/data.
 These resources are required by chatbot to distinguish between the context of your questions.    
 if you are asking general questions it will give general answers or of you want some programming related questions
 it will answer you accordingly.    
-## Setup chatbot
+### Setup chatbot
 We are going to integrate the bot to Telegram messenger. To do so, you will need to create a 
 token and use it to run the bot.    
 Talk to @BotFather in Telegram after registering on Telegram messenger app. 
